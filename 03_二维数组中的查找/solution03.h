@@ -1,7 +1,3 @@
-//
-// Created by Yscal on 2020/1/8.
-//
-
 #ifndef CODING_INTERVIEW_03_SOLUTION_H
 #define CODING_INTERVIEW_03_SOLUTION_H
 
@@ -14,7 +10,12 @@ using std::vector;
 
 class Solution03 {
  public:
-  /* 暴力遍历法 */
+  /**
+   * 暴力遍历解法
+   * @param target 查找的数字
+   * @param array 按题意排序待查找的二维数组
+   * @return 查找到返回true，否则返回false
+   */
   static bool Find1(int target, const vector<vector<int> >& array) {
     for (const auto &row : array) {
       for (const auto &col : row){
@@ -27,4 +28,4 @@ class Solution03 {
   }
 };
 
-#endif //CODING_INTERVIEW_03_二维数组中的查找_SOLUTION03_H_
+#endif

@@ -8,6 +8,4 @@ int main() {
   } else {
     cout << "false" << endl;
   }
-
-  cout << "sa" << endl;
 }

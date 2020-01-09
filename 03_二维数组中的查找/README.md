@@ -10,5 +10,4 @@
 target: 查找的数字
 
 #### 输出描述
-> 查找到返回true，否则返回false 
->
+> 查找到返回true，否则返回false
