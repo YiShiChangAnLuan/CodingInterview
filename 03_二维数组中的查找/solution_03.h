@@ -16,9 +16,9 @@ class Solution03 {
    * @param array 按题意排序待查找的二维数组
    * @return 查找到返回true，否则返回false
    */
-  static bool Find1(int target, const vector<vector<int> >& array) {
+  bool Find1(int target, const vector<vector<int> > &array) {
     for (const auto &row : array) {
-      for (const auto &col : row){
+      for (const auto &col : row) {
         if (col == target) {
           return true;
         }

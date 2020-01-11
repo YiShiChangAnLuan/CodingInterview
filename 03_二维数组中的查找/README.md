@@ -15,7 +15,7 @@ target: 查找的数字
 # 题解  
 #### 暴力破解法
 ```
-bool Find1(int target, const vector<vector<int> >& array) {
+bool Find1(int target, const vector<vector<int> > &array) {
   for (const auto &row : array) {
     for (const auto &col : row) {
       if (col == target) {
